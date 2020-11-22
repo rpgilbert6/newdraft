@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a short title for your project here</title>
+    <!-- import your final project's stylesheet and Google Fonts -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link to DataTable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.css"/>
+    
+    <!-- import your final project's javascript files -->
+    <script src="https://kit.fontawesome.com/740e6c08cb.js" crossorigin="anonymous"></script>
+    <!-- please just use this line for this project only as it contains my own Font Awesome key -->
+
+    <!-- import external scripts from other JS libraries -->
+    <!-- Highcharts-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <!-- DataTable-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- Facebook JavaScript SDK-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+        nonce="6SZepde3"></script>
+
+    <!-- Hero image (the main image of the page; this can be a photoshop arrangement, a video, or a vector graphics; just pick one option) -->
+    <div id="heroimg">
+        <!-- upload an image/graphic to the img folder and set the link in src="", add a short name to alt="" -->
+        <img src="img/photo.png" alt="placeholder" width="100%">
+
+        <!-- Upload a video to YouTube and embed the code below  -->
+
+        <iframe width="100%" height="650px" src="https://www.youtube.com/embed/AfoGkoqmvqY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <!-- write the headings of your story -->
+    <div id="intro">
+        <h1>Tracking COVID-19 Cases in the USA</h1>
+        <p class="byline">Ryan Gilbert | For MC 316 </p>
+        <p class="date">Nov. 21, 2020</p>
+    </div>
+
+    <!-- create a social media menu so that people can reach you (replace the placeholders with your real facebook, twitter, instagram links) -->
+    <div id="social">
+        <ul>
+            <li><a href="https://twitter.com/" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/" target="_blank" id="facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- start writing your story below-->
+    <div class="main-text">
+        <p>
+           
+        </p>
+    </div>
+
+    <!-- your first section -->
+    <h3>An expert's opinion</h3>
+
+    <!-- add your first graphics here -->
+    <div id="graphic-1"></div>
+    <!-- if you are using Highchart JS, add a pair of script tags below and write the code in between; make sure you replace "container" with "graphic-1"-->
+
+
+    <div class="main-text">
+        <p>
+            For what seems to be the third time now, cases of the novel coronavirus are surging across the country. Experts arounf the nation are calling this a third wave, as cases rise. 
+           "Many Americans have unfortunately become a little bit too complacent with protocols," Niorn Nicholas, a advanced practice provider for Advent Health Centra Care - Urget Care, said.
+           "It's unfortunate to see becuase masks and distancing do work, but only when people follow those guidelines and protocols."
+        </p>
+    </div>
+
+    <!-- your second section -->
+    <h3>A student's perspective</h3>
+
+    <!-- add your second graphics here -->
+    <div id="graphic-2"></div>
+
+    <!-- if you are using Highchart JS, write the code in between a pair of script tags below; make sure you replace "container" with "graphic-2"-->
+
+
+    <div class="main-text">
+        <p>
+            "I just wish life was back to normal," Watson Loyd, a senior at K-State, said.
+            "I miss being around my friends and having normal classes. As much as I dislike getting up early, I love being around people in class. My education hasn't been as good, and I wish people would just take this thing as more of a threat, because it is."
+        </p>
+    </div>
+
+
+    <!-- your third section -->
+
+    <h3>Somebody who has had COVID-19</h3>
+
+    <!-- add your third graphics here -->
+    <div id="graphic-3">
+        <table id="dt-table" class="display" width="100%" style="text-align: center;">
+            <thead>
+                <tr>
+                    
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <!-- if you are using Highchart JS, write the code in between a pair of script tags below; make sure you replace "container" with "graphic-2"-->
+    <script src="table.js"></script>
+
+
+
+    <div class="main-text">
+        <p>
+            "I know it impacts people differently, but for me, it was no big deal," Joe Drilling, someobdy who has tested positive for COVID-19, said.
+            "I lost my taste and smell, which sucked. Other than that though, I was just a little tired and everything else was fine for me. I was lucky and recovered early on in my quarantine."
+        </p>
+    </div>
+
+    <!-- write your data methodology section -->
+
+    <div id="data-method">
+        <h4>Data collection and data analysis</h4>
+        <p>
+            In this last paragraph, you will explain to your readers where you got your data, along with the
+            hyperlink(s). Next, explain how you analyzed your data. You will also include a downloaded link to your
+            cleaned CSV.
+        </p>
+    </div>
+
+    <!-- Share button | Go here to generate the real url: https://developers.facebook.com/docs/plugins/share-button/ -->
+    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"
+    data-size="small"><a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore">Share</a></div>
+
+    <!-- add things to your footer-->
+    <footer>
+        <p>© Copyright 2020, Manhattan, KS</p>
+    </footer>
+
+</body>
+
+</html>
